@@ -24,8 +24,8 @@ export default function LoginForm({ className, ...props }) {
     const emailParam = searchParams.get('email')
     const router = useRouter()
     const setCookie = useSetCookie();
-    const [email, setEmail] = useState(emailParam || "")
-    const [password, setPassword] = useState("")
+    const [email, setEmail] = useState(emailParam || "alex@gmail.com")
+    const [password, setPassword] = useState("123")
 
     async function submitForm(e) {
         e.preventDefault()
