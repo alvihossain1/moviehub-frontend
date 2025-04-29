@@ -11,21 +11,17 @@ export default function Mainpage() {
 
   const {user} = useAuth()
 
-  // useEffect(() => {
-  //   dosome()
-  // }, [])
+  useEffect(() => {
+    homeInit()
+  }, [])
 
-  // async function dosome() {
-  //   const response = await axios({
-  //     method: 'post',
-  //     url: `${process.env.SERVER_URL}/movies`,
-  //     data: {},
-  //     headers: {
-  //       'authorization': getCookie('accessToken')
-  //     }
-  //   })
-  //   console.log(response)
-  // }
+  async function homeInit() {
+    const response = await axios({
+      method: 'get',
+      url: `${process.env.SERVER_URL}/`,
+    })
+    console.log('home response', response.data)
+  }
 
 
 
