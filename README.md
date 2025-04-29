@@ -28,9 +28,9 @@ The project was built with nextjs, client side features.
 Shadcn UI for UI based templates and TailwindCSS.
 
 # Deployement
-- Project is live on Vercel
+- Project is live on Vercel, [click here](https://moviehub-frontend-two.vercel.app/)
 
-## NextJS
+## NextJS extra's
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
