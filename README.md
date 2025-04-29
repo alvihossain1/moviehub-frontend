@@ -14,6 +14,20 @@ pnpm dev
 bun dev
 ```
 
+## ENV Variables
+```bash
+SERVER_URL = http://localhost:3001
+```
+
+## Description Packages
+The project was built with nextjs, client side features.
+- socket.io-client (realtime communication)
+- axios (API handler)
+- cookies-next (Nextjs cookies)
+
+Shadcn UI for UI based templates and TailwindCSS.
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
